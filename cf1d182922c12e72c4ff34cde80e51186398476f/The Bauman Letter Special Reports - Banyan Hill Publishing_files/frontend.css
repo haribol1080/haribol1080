@@ -1,0 +1,579 @@
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+/* Version 1 - leave for legacy */
+#mw_login {
+    padding: 30px;
+    margin: 20px auto;
+    background-color: #ebebeb;
+    max-width: 500px;
+}
+
+#post_mw_login {
+    margin-bottom: 20px;
+}
+
+#mw_login h2 {
+    margin: 6px auto;
+    font-weight: normal;
+}
+
+#mw_login hr {
+    background-color: black;
+}
+#mw_login a {
+    cursor: pointer;
+    box-shadow: none;
+}
+#mw_login a:hover {
+    text-decoration: underline;
+}
+#mw_login label,  #ag_multiple label {
+    margin-right: 10px;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #666;
+}
+#mw_login .forgot_pwd {
+    margin-bottom: 1em;
+}
+#mw_login .forgot_pwd a {
+    text-decoration: none
+}
+#mw_login .forgot_pwd a, #mw_login .login-remember {
+    font-size: 0.8em;
+}
+#mw_login .forgot_pwd a:hover {
+    text-decoration: underline;
+}
+
+#mw_login .reset_form label {
+    display: inline-block;
+}
+#mw_login .reset_form {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#mw_login .reset-email label {
+    margin-top: 10px;
+}
+#mw_login .reset-email {
+    margin-top: 10px;
+    display: block;
+}
+#mw_login .password_reset_form p {
+    margin: 0;
+}
+#mw_login .reset-submit {
+    height: 50px;
+}
+#mw_login input[type='text'], #mw_login input[type='password'], #ag_multiple select {
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    background-color: white;
+}
+
+.login-username, .login-password {
+    width: 100%;
+}
+
+#mw_login .error .ag_error, .multiple_error {
+    color: white;
+    padding: 5px 10px;
+    background: #707070;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+#mw_login .error .ag_error p {
+    margin-bottom: 5px;
+}
+#mw_login .error .ag_error .ag_message, .multiple_error .ag_error .ag_message {
+    font-size: 0.8em;
+}
+#mw_login .login-remember {
+    margin-bottom: 1em;
+}
+
+#mw_login .login-submit, #ag_multiple .multi-submit {
+    display: block;
+}
+
+#ag_multiple .multi-submit {
+    margin: 15px auto;
+}
+
+#ag_fb_login {
+    font-size: 1em;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+#ag_fb_login:hover {
+    opacity: 0.9;
+}
+
+#ag_fb_block {
+    margin: 20px 0;
+}
+
+.multiple-warning {
+    margin-bottom: 15px;
+}
+
+#mw_login .invalid {
+    border: 1px solid red;
+}
+
+.entry-content .new-password-head {
+    margin-top:0;
+}
+
+#new-password-form label {
+    display: inline-block;
+}
+
+.affiliate-link {
+    font-size: 0.8em;
+}
+
+.ag_fb_icon {
+    width: 20px;
+    height: 20px;
+    box-shadow: none!important;
+    margin-right: 5px;
+    display: inline-block!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Version 2 */
+
+.tfs-mw-wrapper-block {
+    max-width: 516px;
+    min-width: 260px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tfs-mw-wrapper-block a, .tfs-mw-wrapper-block a:visited {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #4a4a4a;
+    letter-spacing: 0.1px;
+}
+
+.tfs-mw-wrapper-block a:active, .tfs-mw-wrapper-block a:hover {
+    text-decoration: underline;
+    color: #3e79bd;
+}
+
+.tfs-mw-wrapper-block #tfs-mw-wrapper-block-title {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.tfs-mw-wrapper-block #tfs-mw-wrapper-block-title h2 {
+    letter-spacing: 0.5px;
+    color: #444444;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-wrapper-block-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: #4a4a4a;
+    margin: 0;
+    margin-bottom: 50px;
+    max-width: 400px;
+    letter-spacing: 0.2px;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-wrapper-block-error {
+    font-weight: 600;
+    font-size: 14px;
+    color: #d0021b;
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-wrapper-block-success {
+    font-weight: 600;
+    font-size: 14px;
+    color: #0f8555;
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+
+.tfs-mw-wrapper-block input:focus {
+    outline: none;
+}
+
+.tfs-mw-wrapper-block input[type="text"], .tfs-mw-wrapper-block input[type="email"], .tfs-mw-wrapper-block input[type="password"] {
+    -moz-appearance:    textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+}
+
+.tfs-mw-wrapper-block ::-webkit-input-placeholder {
+    color: rgba(44, 44, 44, 0.5);
+}
+
+.tfs-mw-wrapper-block :-moz-placeholder {
+    /* FF 4-18 */
+    color: rgba(44, 44, 44, 0.5);
+}
+
+.tfs-mw-wrapper-block ::-moz-placeholder {
+    /* FF 19+ */
+    color: rgba(44, 44, 44, 0.5);
+}
+
+.tfs-mw-wrapper-block :-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(44, 44, 44, 0.5);
+}
+
+
+.tfs-mw-wrapper-block .tfs-mw-loginform {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-username, .tfs-mw-wrapper-block #password-change-form .user-email,
+.tfs-mw-wrapper-block #password-change-form .new-password {
+    margin: 0 0 22px 0;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-password, .tfs-mw-wrapper-block #password-change-form .confirm-password {
+    margin: 0 0 16px 0;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-username label, .tfs-mw-wrapper-block .tfs-mw-loginform .login-password label,
+.tfs-mw-wrapper-block #password-reset-form .user-email label,  .tfs-mw-wrapper-block #username-reset-form .user-email label,
+.tfs-mw-wrapper-block #password-change-form label {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #666666;
+    width: 132px;
+    letter-spacing: 0.4px;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-username label.error, .tfs-mw-wrapper-block .tfs-mw-loginform .login-password label.error,
+.tfs-mw-wrapper-block #password-reset-form .user-email label.error,  .tfs-mw-wrapper-block #username-reset-form .user-email label.error,
+.tfs-mw-wrapper-block #password-change-form label.error {
+    width: 100%;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-username input, .tfs-mw-wrapper-block .tfs-mw-loginform .login-password input,
+.tfs-mw-wrapper-block #password-reset-form .user-email input, .tfs-mw-wrapper-block #username-reset-form .user-email input,
+.tfs-mw-wrapper-block #password-change-form input {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    color: #2c2c2c;
+    border: solid 1px #cccccc;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 20px 23px 21px 23px;
+    font-weight: 600;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 0.2px;
+    height: 60px;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-username select {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    color: #2c2c2c;
+    border: solid 1px #cccccc;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 20px 23px 21px 23px;
+    font-weight: 600;
+    box-sizing: border-box;
+    letter-spacing: 0.2px;
+    width: 100%;
+    height: 50px;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-username label.error, .tfs-mw-wrapper-block .tfs-mw-loginform .login-password label.error,
+.tfs-mw-wrapper-block #password-reset-form #user_email-error, .tfs-mw-wrapper-block #username-reset-form #user_email-error,
+.tfs-mw-wrapper-block #password-change-form #username-error, .tfs-mw-wrapper-block #password-change-form #new-password-error,
+.tfs-mw-wrapper-block #password-change-form #confirm-password-error  {
+    font-size: 13px;
+    color: #d0021b;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-username .input.error, .tfs-mw-wrapper-block .tfs-mw-loginform .login-password .input.error,
+.tfs-mw-wrapper-block #password-reset-form .input.error, .tfs-mw-wrapper-block #username-reset-form .input.error,
+.tfs-mw-wrapper-block #password-change-form input.error {
+    border: solid 1px #d0021b;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-remember {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #4a4a4a;
+    letter-spacing: 0.1px;
+}
+
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-remember label input {
+    zoom: 1.6;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: 1px;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-submit, .tfs-mw-wrapper-block #password-reset-form .reset-submit,
+.tfs-mw-wrapper-block #username-reset-form .reset-submit, .tfs-mw-wrapper-block #password-change-form .new-password-submit {
+    width: 90%;
+    margin: auto;
+    margin-top: 51px;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-submit input, .tfs-mw-wrapper-block #password-reset-form .reset-submit input,
+.tfs-mw-wrapper-block #username-reset-form .reset-submit input, .tfs-mw-wrapper-block #password-change-form .new-password-submit input {
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: #4a4a4a;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    letter-spacing: 0.2px;
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-submit input:hover, .tfs-mw-wrapper-block .tfs-mw-loginform .login-submit input:active,
+.tfs-mw-wrapper-block #password-reset-form .reset-submit input:hover, .tfs-mw-wrapper-block #password-reset-form .reset-submit input:active,
+.tfs-mw-wrapper-block #username-reset-form .reset-submit input:hover, .tfs-mw-wrapper-block #username-reset-form .reset-submit input:active,
+.tfs-mw-wrapper-block #password-change-form .new-password-submit input:hover, .tfs-mw-wrapper-block #password-change-form .new-password-submit input:active {
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #333333;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+.tfs-mw-wrapper-block .tfs-mw-loginform .login-submit input:active, .tfs-mw-wrapper-block .tfs-mw-loginform .login-submit input:active,
+.tfs-mw-wrapper-block #password-reset-form .reset-submit input:active, .tfs-mw-wrapper-block #password-reset-form .reset-submit input:active,
+.tfs-mw-wrapper-block #username-reset-form .reset-submit input:active, .tfs-mw-wrapper-block #username-reset-form .reset-submit input:active,
+.tfs-mw-wrapper-block #password-change-form .new-password-submit input:active, .tfs-mw-wrapper-block #password-change-form .new-password-submit input:active {
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #666666;
+}
+
+.tfs-mw-wrapper-block-forgot-username {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tfs-mw-wrapper-block-forgot-username a {
+    cursor: pointer;
+}
+
+.tfs-mw-wrapper-block-facebook-login, .tfs-mw-wrapper-block-magic-link {
+    width: 80%;
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.tfs-mw-wrapper-block-facebook-login-button, .tfs-mw-wrapper-block-magic-link-button {
+    margin-top: 35px;
+}
+
+.tfs-mw-wrapper-block-facebook-login-button img {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.tfs-mw-wrapper-block-facebook-login-button span {
+    vertical-align: middle;
+}
+
+.tfs-mw-wrapper-block-facebook-login a, .tfs-mw-wrapper-block-magic-link a {
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: #3a5998;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 12px;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    opacity: 1;
+    letter-spacing: 0.2px;
+}
+
+.tfs-mw-wrapper-block-magic-link a {
+    background-color: #4a73e2;
+    padding: 15px 12px;
+}
+
+.tfs-mw-wrapper-block-magic-link a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #5482ff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+}
+
+.tfs-mw-wrapper-block-magic-link a:active {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #5482ff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+}
+
+.tfs-mw-wrapper-block-facebook-login img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.tfs-mw-wrapper-block-facebook-login a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #304b80;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+}
+
+.tfs-mw-wrapper-block-facebook-login a:active {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #4469b3;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+}
+
+
+.tfs-mw-wrapper-block-divider {
+    color: #4a4a4a;
+    font-size: 14px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.tfs-mw-wrapper-block-divider:before, .tfs-mw-wrapper-block-divider:after {
+    opacity: 0.22;
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    margin-left: 2%;
+    height: 1px;
+    content: '\a0';
+    background-color: #979797;
+}
+
+.tfs-mw-wrapper-block-divider:before {
+    margin-left: -52%;
+    text-align: right;
+}
+
+.tfs-mw-wrapper-block .mw-button-disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.tfs-mw-wrapper-block .fp-username-section {
+    display: none;
+}
+
+.mw_auto_login_feedback {
+    background: white;
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+    top: 0;
+    z-index: 999;
+    padding: 20px;
+}
+
+.mw_auto_login_feedback p {
+    margin: 0 auto;
+}
+
+.mw-password-field-masking-container {
+    position: relative;
+}
+
+.mw-password-field-masking {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.mw-password-unmask {
+    width: 35px;
+    height: 25px;
+    background: url( "../img/unmask.png" ) no-repeat;
+}
+
+.mw-password-mask {
+    width: 35px;
+    height: 25px;
+    background: url( "../img/mask.png" ) no-repeat;
+}
+
+.tfs-mw-wrapper-block-row {
+    clear: both;
+}
+
+.tfs-mw-wrapper-block-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.tfs-mw-wrapper-block-row .login-remember {
+    float: left;
+    margin-top: 3px;
+}
+
+.tfs-mw-wrapper-block-row .login-forgot-password-link {
+    float: right;
+}
+
+.fb-center-button{
+    margin: 51px auto 0 auto;
+    text-align: center;
+    padding-bottom: 1.75em;
+}
