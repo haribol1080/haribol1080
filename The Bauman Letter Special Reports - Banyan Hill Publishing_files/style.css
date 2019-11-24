@@ -1,0 +1,7 @@
+.widget_popular_post_widget{
+    overflow: hidden;
+}
+.widget_popular_post_widget li{
+    list-style: none;
+    line-height: 40px;
+}

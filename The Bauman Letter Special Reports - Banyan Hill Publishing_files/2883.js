@@ -1,0 +1,1 @@
+if("object"==typeof CE2&&CE2.uid)throw"CE: multiple userscripts installed";"undefined"==typeof CE2&&(CE2={}),CE2.uid=902883,CE2.USER_SCRIPT_VERSION=1573574213,CE2.status="no data available";

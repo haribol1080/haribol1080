@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.bootstrap-wrapper .container-fluid .row .smsInput, .bootstrap-wrapper .container-fluid .row .smsSelect {width: 100%; padding: 5px; }
+.bootstrap-wrapper .container-fluid .row .smsInput {color: #878787 !important; padding: 10px;}
+.bootstrap-wrapper .container-fluid .row div div.row:first-child {margin-bottom: 10px; margin-top: 10px; padding-bottom: 20px; border-style: solid; border-width: 0px 0px 1px 0px; border-color: #f2f2f2;}
+.et_pb_section {padding: 0px 0px 4% 0px;}
+.archivePad .bootstrap-wrapper .row {padding: 5px 0px 0px 0px; font-size: 17px !important; line-height: 21px !important;}
+.archivePad .bootstrap-wrapper .row div div:first-child {padding-top: 10px;}
+.txtSmsPg .bootstrap-wrapper .container-fluid .btnWrp {margin: 0px auto; max-width: 175px !important;}
+.txtSmsPg .bootstrap-wrapper .container-fluid .btnWrp input.btn {background-color: #0D3659; color: #fff !important; padding-left: 50px; padding-right: 50px; }
+.bootstrap-wrapper .container-fluid .btnWrp input.btn:hover {background-color: #465F74;}
+.clear {clear: both;}
+.archivePg .row .archivePad .bootstrap-wrapper .container-fluid {overflow: hidden;}
+.txtSmsPg .bootstrap-wrapper .container-fluid form div.row div div.row div p {font-weight: bold !important; text-align: left;}
+
+
+@media (max-width: 575.98px) {
+	.txtSmsPg .bootstrap-wrapper .container-fluid form .row div .row div p {margin-bottom: 20px !important; text-align: center;}
+}
+
